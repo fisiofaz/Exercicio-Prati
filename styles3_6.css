@@ -1,0 +1,29 @@
+/* Estilo da Galeria */
+.container-flex {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.galeria div {
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+}

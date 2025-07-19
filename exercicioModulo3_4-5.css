@@ -1,0 +1,47 @@
+/* Estilo base */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header, main, footer {
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #333;
+}
+
+/* Cores */
+header {
+  background-color: #dceefc;
+  color: #1b4f72;
+}
+
+main {
+  background-color: #f0f8ff;
+  color: #154360;
+}
+
+footer {
+  background-color: #ddd;
+  color: #444;
+  text-align: center;
+}
+
+/* Estilo para h2 */
+h2 {
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+/* Classe destaque */
+.destaque {
+  font-style: italic;
+  background-color: #fef9e7;
+}
+
+/* ID importante */
+#importante {
+  border-top: 4px solid #a93226;
+}

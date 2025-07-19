@@ -1,0 +1,28 @@
+/* Menu padrão */
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Menu responsivo */
+@media (max-width: 600px) {
+  .menu-icon {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  nav ul.ativo {
+    display: flex;
+  }
+}
